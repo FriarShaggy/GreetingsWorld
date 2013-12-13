@@ -1,0 +1,12 @@
+
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[proc_getTopDates]
+AS
+BEGIN
+     SELECT TOP 500 * FROM dbo.dimDate
+     
+END
+GO
